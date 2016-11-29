@@ -1,6 +1,6 @@
 MACRO 16777219 "Armas" Ability_Defend
-/eq [Stonesplinter Dagger]
-/eq [Primal Buckler]
+/eq [Heirloom Sword]
+/eq  [Bone Buckler]
 END
 MACRO 16777217 "Bandage" Spell_BrokenHeart
 /target Folei

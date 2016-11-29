@@ -28,6 +28,10 @@ MACRO 10 "Rend" Ability_Gouge
 /cast Rend
 /script if not IsCurrentAction(30) then UseAction(30) end;
 END
+MACRO 14 "Revenge" Ability_Warrior_Revenge
+/cast Revenge
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
 MACRO 7 "Shield bash" Ability_Warrior_ShieldBash
 /eq [Lumberjack Axe]
 /eq [Tribal Warrior's Shield]
