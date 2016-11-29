@@ -1,0 +1,162 @@
+
+MobInfoConfig = {
+	["HealthPosX"] = -7,
+	["SaveBasicInfo"] = 1,
+	["ShowQuality"] = 1,
+	["ShowLoots"] = 1,
+	["SaveItems"] = 1,
+	["ShowKills"] = 0,
+	["TargetFontSize"] = 10,
+	["ShowHealth"] = 1,
+	["DisableMobInfo"] = 0,
+	["ShowBlankLines"] = 1,
+	["ShowCloth"] = 1,
+	["ShowResists"] = 1,
+	["ManaPosX"] = -7,
+	["ShowXp"] = 1,
+	["TargetMana"] = 1,
+	["ShowNo2lev"] = 1,
+	["ShowCombined"] = 0,
+	["StableMax"] = 0,
+	["ShowCoin"] = 0,
+	["ShowClothSkin"] = 1,
+	["ImportOnlyNew"] = 0,
+	["DisableHealth"] = 0,
+	["SaveResist"] = 1,
+	["TargetFont"] = 2,
+	["SavePlayerHp"] = 0,
+	["ShowIV"] = 0,
+	["ItemFilter"] = "",
+	["TargetHealth"] = 1,
+	["ShowEmpty"] = 0,
+	["ItemTooltip"] = 1,
+	["ItemsQuality"] = 2,
+	["KeypressMode"] = 0,
+	["HealthPercent"] = 1,
+	["SaveCharData"] = 1,
+	["CompactMode"] = 1,
+	["SaveLocation"] = 1,
+	["ShowDamage"] = 1,
+	["ManaPosY"] = 11,
+	["ShowClass"] = 1,
+	["ShowTotal"] = 1,
+	["HealthPosY"] = 11,
+	["ShowItems"] = 1,
+	["ManaPercent"] = 1,
+	["ShowLocation"] = 1,
+	["CombinedMode"] = 0,
+	["ShowMana"] = 0,
+}
+MobInfoDB = {
+	["Adult Plainstrider:8"] = {
+		["c1"] = "10////80",
+		["ml"] = "36/60/55/80//202",
+	},
+	["Bristleback Quilboar:3"] = {
+		["ml"] = "60/76/63/82//202",
+	},
+	["Bristleback Quilboar:4"] = {
+		["c1"] = "13////56",
+		["ml"] = "59/76/63/84//202",
+	},
+	["Palemane Poacher:7"] = {
+		["ml"] = "53/71/55/74//202",
+	},
+	["Palemane Tanner:6"] = {
+		["c1"] = "10////60",
+		["ml"] = "49/70/55/74//202",
+	},
+	["Mountain Cougar:3"] = {
+		["c1"] = "1////42",
+		["ml"] = "43/83/43/83//202",
+	},
+	["Venture Co. Hireling:5"] = {
+		["c1"] = "6////75",
+		["ml"] = "53/63/54/65//202",
+	},
+	["Wiry Swoop:6"] = {
+		["ml"] = "48/67/49/67//202",
+	},
+	["Plainstrider:2"] = {
+		["c1"] = "2////14",
+		["ml"] = "44/78/51/82//202",
+	},
+	["Battleboar:3"] = {
+		["ml"] = "55/84/57/85//202",
+	},
+	["Bristleback Battleboar:5"] = {
+		["c1"] = "1////70",
+		["ml"] = "62/79/62/79//202",
+	},
+	["Palemane Skinner:6"] = {
+		["ml"] = "49/70/54/73//202",
+	},
+	["Bristleback Shaman:3"] = {
+		["c1"] = "1////42",
+		["ml"] = "63/76/63/76//202",
+	},
+	["Adult Plainstrider:6"] = {
+		["ml"] = "46/59/51/70//202",
+	},
+	["Palemane Poacher:8"] = {
+		["c1"] = "6////83",
+		["ml"] = "52/71/55/73//202",
+	},
+	["Palemane Tanner:5"] = {
+		["ml"] = "49/70/54/73//202",
+	},
+	["Palemane Skinner:7"] = {
+		["c1"] = "8////79",
+		["ml"] = "49/70/55/74//202",
+	},
+	["Prairie Stalker:7"] = {
+		["ml"] = "55/70/55/70//202",
+	},
+	["Battleboar:4"] = {
+		["c1"] = "5////56",
+		["ml"] = "54/84/56/86//202",
+	},
+	["Wiry Swoop:5"] = {
+		["c1"] = "2////64",
+		["ml"] = "54/69/55/69//202",
+	},
+	["Venture Co. Laborer:7"] = {
+		["c1"] = "1////79",
+		["ml"] = "53/66/53/66//202",
+	},
+	["DatabaseVersion:0"] = {
+		["ver"] = 8,
+		["loc"] = "enUS",
+	},
+	["Venture Co. Hireling:6"] = {
+		["ml"] = "51/65/54/65//202",
+	},
+	["Plainstrider:1"] = {
+		["ml"] = "42/81/44/82//202",
+	},
+	["Prairie Wolf:5"] = {
+		["c1"] = "14////64",
+		["ml"] = "36/63/55/78//202",
+	},
+	["Adult Plainstrider:7"] = {
+		["ml"] = "36/63/55/78//202",
+	},
+	["Prairie Wolf:6"] = {
+		["ml"] = "36/65/55/76//202",
+	},
+}
+MobHealthDB = {
+	["thisIsADummyTable"] = true,
+}
+MobHealthPlayerDB = {
+}
+MI2_ItemNameTable = {
+}
+MI2_CharTable = {
+	["Kronos:Folei"] = "c1",
+	["charCount"] = 1,
+}
+MI2_ZoneTable = {
+	["cnt"] = 2,
+	[202] = "Mulgore",
+}

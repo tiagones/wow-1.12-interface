@@ -1,0 +1,5 @@
+
+AUX_ENABLE_ALT = true
+AUX_OPEN_FIRST = false
+AUX_INSTANT_BUYOUT = false
+AUX_AUCTION_DURATION = "medium"

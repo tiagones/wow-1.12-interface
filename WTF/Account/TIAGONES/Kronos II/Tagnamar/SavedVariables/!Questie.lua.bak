@@ -1,0 +1,156 @@
+
+QuestieSeenQuests = {
+	[4003656890] = 0,
+	[1579250890] = 1,
+	[3746141602] = 0,
+	[3118222898] = 0,
+	[1360639778] = 0,
+	[3353834394] = 0,
+	[893745186] = 0,
+	[765190074] = 0,
+	[963090066] = 1,
+}
+QuestieTrackedQuests = {
+	[4003656890] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "monster",
+			["desc"] = "Hexed Troll slain: 6/8",
+		},
+		["tracked"] = false,
+		["objective2"] = {
+			["notes"] = {
+			},
+			["type"] = "monster",
+			["desc"] = "Voodoo Troll slain: 0/8",
+		},
+		["questName"] = "Zalazane",
+		["level"] = 10,
+		["objective3"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = "Zalazane's Head: 0/1",
+		},
+		["leaderboards"] = 3,
+	},
+	[3746141602] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = "Fizzle's Claw: 0/1",
+		},
+		["leaderboards"] = 1,
+		["questName"] = "Dark Storms",
+		["level"] = 12,
+		["tracked"] = false,
+	},
+	[3118222898] = {
+		["objective1"] = {
+			["type"] = "item",
+			["done"] = 1,
+			["notes"] = {
+			},
+			["desc"] = "Durotar Tiger Fur: 4/4",
+		},
+		["leaderboards"] = 1,
+		["isComplete"] = 1,
+		["questName"] = "Practical Prey",
+		["level"] = 8,
+		["tracked"] = false,
+	},
+	[1360639778] = {
+		["tracked"] = false,
+		["isComplete"] = 1,
+		["questName"] = "The Admiral's Orders",
+		["leaderboards"] = 0,
+		["level"] = 7,
+	},
+	[3353834394] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = "Minshina's Skull: 0/1",
+		},
+		["leaderboards"] = 1,
+		["questName"] = "Minshina's Skull",
+		["level"] = 9,
+		["tracked"] = false,
+	},
+	[893745186] = {
+		["objective1"] = {
+			["type"] = "monster",
+			["done"] = 1,
+			["notes"] = {
+			},
+			["desc"] = "Razormane Quilboar slain: 4/4",
+		},
+		["tracked"] = false,
+		["objective2"] = {
+			["type"] = "monster",
+			["done"] = 1,
+			["notes"] = {
+			},
+			["desc"] = "Razormane Scout slain: 4/4",
+		},
+		["objective4"] = {
+			["notes"] = {
+			},
+			["type"] = "monster",
+			["desc"] = "Razormane Battleguard slain: 0/4",
+		},
+		["questName"] = "Encroachment",
+		["level"] = 10,
+		["leaderboards"] = 4,
+		["objective3"] = {
+			["notes"] = {
+			},
+			["type"] = "monster",
+			["desc"] = "Razormane Dustrunner slain: 0/4",
+		},
+	},
+	[765190074] = {
+		["objective1"] = {
+			["type"] = "item",
+			["done"] = 1,
+			["notes"] = {
+			},
+			["desc"] = "Taillasher Egg: 3/3",
+		},
+		["leaderboards"] = 1,
+		["isComplete"] = 1,
+		["questName"] = "Break a Few Eggs",
+		["level"] = 8,
+		["tracked"] = false,
+	},
+}
+QuestieConfig = {
+	["minLevelFilter"] = false,
+	["maxShowLevel"] = 3,
+	["getVersion"] = 3.3,
+	["alwaysShowDistance"] = false,
+	["boldColors"] = false,
+	["arrowEnabled"] = true,
+	["showMapAids"] = true,
+	["trackerEnabled"] = true,
+	["showProfessionQuests"] = false,
+	["minShowLevel"] = 5,
+	["alwaysShowQuests"] = true,
+	["resizeWorldmap"] = false,
+	["alwaysShowLevel"] = true,
+	["showTrackerHeader"] = false,
+	["trackerList"] = false,
+	["maxLevelFilter"] = false,
+}
+QuestieTrackerVariables = {
+	["position"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 0,
+		["xOfs"] = 0,
+	},
+}

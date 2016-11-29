@@ -1,0 +1,21 @@
+
+SellValues = {
+	["Tough Jerky"] = 1,
+	["Fractured Canine"] = 48,
+	["Totem of Hawkwind"] = 0,
+	["Ruined Pelt"] = 5,
+	["Splintered Tusk"] = 6,
+	["Tough Hunk of Bread"] = 1,
+	["Battleworn Hammer"] = 7,
+	["Shiny Red Apple"] = 1,
+	["Plucked Feather"] = 5,
+	["Stringy Wolf Meat"] = 4,
+	["Bundle of Furs"] = 0,
+	["Worn Leather Gloves"] = 6,
+	["Frayed Robe"] = 4,
+	["Chipped Claw"] = 4,
+	["Cracked Egg Shells"] = 4,
+	["Hearthstone"] = 0,
+}
+InvList_HiddenItems = nil
+InvList_TooltipMode = 2

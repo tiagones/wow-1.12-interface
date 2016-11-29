@@ -1,0 +1,18 @@
+MACRO 16777219 "Armas" Ability_Defend
+/eq [Stonesplinter Dagger]
+/eq [Primal Buckler]
+END
+MACRO 16777217 "Bandage" Spell_BrokenHeart
+/target Folei
+/use Heavy Linen Bandage
+/script TargetLastEnemy();
+END
+MACRO 16777218 "Shield bash" Ability_Ambush
+/eq [Stonesplinter Dagger]
+/eq [Primal Buckler]
+/cast Shield Bash
+END
+MACRO 16777220 "Shoot" Ability_Marksmanship
+/cast Shoot Bow
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END

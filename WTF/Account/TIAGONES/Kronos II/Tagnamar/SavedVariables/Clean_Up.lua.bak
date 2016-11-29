@@ -1,0 +1,10 @@
+
+Clean_Up_Settings = {
+	["BAGS"] = {
+	},
+	["BANK"] = {
+	},
+	["ignored"] = {
+	},
+	["reversed"] = false,
+}

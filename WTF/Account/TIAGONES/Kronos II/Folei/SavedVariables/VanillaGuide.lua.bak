@@ -1,0 +1,36 @@
+
+VanillaGuideDBPC = {
+	["global"] = {
+		["GuideValues"] = {
+			["GuideID"] = 2,
+		},
+		["CharInfo"] = {
+			["Race"] = "Undead",
+			["Faction"] = "Horde",
+			["CharName"] = "Folei",
+			["RealmName"] = "Kronos II",
+			["Class"] = "Warrior",
+		},
+		["UI"] = {
+			["MainFrameAnchor"] = {
+				["sTo"] = "TOPLEFT",
+				["nX"] = 362.7389309536092,
+				["sFrom"] = "TOPLEFT",
+				["nY"] = -746.834306232285,
+			},
+			["ScrollFrameVisible"] = false,
+			["MainFrameSize"] = {
+				["nWidth"] = 320.0000414027082,
+				["nHeight"] = 320.0000012546275,
+			},
+			["Scale"] = 0.88,
+		},
+		["MetaMap"] = {
+			["BWPPresence"] = true,
+			["NotesEnable"] = true,
+			["Presence"] = true,
+			["NotesPresence"] = true,
+			["BWPEnable"] = true,
+		},
+	},
+}

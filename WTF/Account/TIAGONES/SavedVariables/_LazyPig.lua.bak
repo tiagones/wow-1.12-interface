@@ -1,0 +1,31 @@
+
+LPCONFIG = {
+	["CAM"] = false,
+	["DUEL"] = false,
+	["SALVA"] = false,
+	["GOSSIP"] = true,
+	["SHIFTSPLIT"] = true,
+	["NOSAVE"] = false,
+	["QBG"] = false,
+	["SPAM"] = false,
+	["SPECIALKEY"] = true,
+	["WORLDBG"] = false,
+	["LBG"] = true,
+	["WORLDRAID"] = false,
+	["WORLDDUNGEON"] = false,
+	["FINV"] = true,
+	["RIGHT"] = true,
+	["GREEN"] = 2,
+	["REZ"] = true,
+	["EBG"] = true,
+	["ZG"] = 1,
+	["EPLATE"] = false,
+	["FPLATE"] = false,
+	["SUMM"] = true,
+	["GINV"] = true,
+	["DISMOUNT"] = true,
+	["HPLATE"] = false,
+	["LOOT"] = true,
+}
+LPSPLIT = nil
+LPMENU = nil

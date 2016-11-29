@@ -1,0 +1,35 @@
+
+MobHealth3DB = {
+	["Adult Plainstrider:8"] = 156,
+	["Bristleback Quilboar:3"] = 67,
+	["Bristleback Quilboar:4"] = 100,
+	["Palemane Poacher:7"] = 137,
+	["Palemane Tanner:6"] = 115,
+	["Mountain Cougar:3"] = 100,
+	["Venture Co. Hireling:5"] = 102,
+	["Plainstrider:2"] = 100,
+	["Battleboar:3"] = 100,
+	["Bristleback Battleboar:5"] = 102,
+	["Venture Co. Laborer:7"] = 137,
+	["Adult Plainstrider:6"] = 120,
+	["Palemane Tanner:5"] = 100,
+	["Wiry Swoop:6"] = 120,
+	["Palemane Skinner:6"] = 115,
+	["Prairie Wolf:5"] = 102,
+	["Palemane Poacher:8"] = 156,
+	["Palemane Skinner:7"] = 131,
+	["Wiry Swoop:5"] = 102,
+	["Venture Co. Hireling:6"] = 120,
+	["Bristleback Shaman:3"] = 100,
+	["Battleboar:4"] = 100,
+	["Adult Plainstrider:7"] = 137,
+	["Prairie Wolf:6"] = 120,
+}
+MobHealth3Config = {
+	["stableMax"] = false,
+	["saveData"] = true,
+	["precision"] = 10,
+}
+MobHealthDB = {
+	["thisIsADummyTable"] = true,
+}

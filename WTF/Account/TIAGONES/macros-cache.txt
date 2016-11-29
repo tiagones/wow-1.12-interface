@@ -1,0 +1,49 @@
+MACRO 6 "1h+shield" Spell_Shadow_SacrificialShield
+/eq [Ceremonial Tomahawk]
+/eq [Tribal Warrior's Shield]
+END
+MACRO 11 "Bandagem" Ability_Ambush
+/target Folei
+/use Linen Bandage
+/script TargetLastEnemy();
+END
+MACRO 2 "Charge" Ability_Warrior_Charge
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(1); if isActive then CastSpellByName("Charge"); else CastSpellByName("Battle Stance()"); end;
+END
+MACRO 9 "Hamstring" Ability_SearingArrow
+/cast Hamstring
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
+MACRO 8 "Heroic Strike" Ability_Rogue_Ambush
+/cast Heroic Strike
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
+MACRO 1 "Intercept" Ability_Ambush
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(3); if isActive then CastSpellByName("Intercept"); else CastSpellByName("Berserker Stance()"); end;
+END
+MACRO 3 "OverPower" Ability_SteelMelee
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(1); if isActive then CastSpellByName("Overpower"); else CastSpellByName("Battle Stance()"); end;
+END
+MACRO 10 "Rend" Ability_Gouge
+/cast Rend
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
+MACRO 7 "Shield bash" Ability_Warrior_ShieldBash
+/eq [Lumberjack Axe]
+/eq [Tribal Warrior's Shield]
+/cast Shield Bash
+END
+MACRO 12 "Suunder" Ability_Warrior_Sunder
+/cast Sunder Armor
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
+MACRO 13 "Taunt" Spell_Nature_Reincarnation
+/cast Taunt
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
+MACRO 4 "Thunderclap" Ability_ThunderClap
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(1); if isActive then CastSpellByName("Thunder Clap"); else CastSpellByName("Battle Stance()"); end;
+END
+MACRO 5 "Universal interu" Ability_Rogue_KidneyShot
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(3); if isActive then CastSpellByName("Pummel"); else CastSpellByName("Shield Bash()"); end;
+END

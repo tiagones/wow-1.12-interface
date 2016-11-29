@@ -1,0 +1,49 @@
+MACRO 16777220 "Arcane Shot" Ability_ImpalingBolt
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/cast Arcane Shot
+END
+MACRO 16777217 "Autoshot" Ability_Marksmanship
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/run if CheckInteractDistance("target", 3) and (not PlayerFrame.inCombat) then AttackTarget() elseif not IsAutoRepeatAction(3) then CastSpellByName("Auto Shot") end
+END
+MACRO 16777221 "Bandagem" Ability_Ambush
+/target Tagnamar
+/use Linen Bandage
+/script TargetLastEnemy();
+END
+MACRO 16777224 "feed pet" Ability_Hunter_BeastTraining
+/cast [nomod] Feed Pet; 
+/use [nomod] Roasted Boar Meat; 
+/cast [mod:alt] Mend Pet; 
+END
+MACRO 16777226 "Freezing trap" Ability_Ambush
+/cast Freezing Trap
+/script PetFollow()
+END
+MACRO 16777218 "Melee" Ability_MeleeDamage
+/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite
+END
+MACRO 16777222 "pet attack" Ability_Druid_ChallangingRoar
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/script CastPetAction(2);
+/script CastPetAction(10);
+/script PetAttack(target)
+/cast Charge
+/cast Dash
+END
+MACRO 16777223 "pet follow" Ability_Tracking
+/script PetFollow("Raziya")
+/script CastPetAction(10);
+/cast Dash
+END
+MACRO 16777225 "Scatter shot" Ability_GolemStormBolt
+/cast Scatter Shot
+/script PetFollow();
+END
+MACRO 16777219 "Serpent" Ability_Hunter_Quickshot
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/cast Serpent Sting
+END

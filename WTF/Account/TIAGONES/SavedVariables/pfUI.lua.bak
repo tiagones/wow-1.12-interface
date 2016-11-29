@@ -1,0 +1,28 @@
+
+pfUI_playerDB = {
+	["Folei"] = {
+		["class"] = "WARRIOR",
+		["level"] = 12,
+	},
+	["Thantrik"] = {
+		["class"] = "SHAMAN",
+		["level"] = 0,
+	},
+	["Lukashenko"] = {
+		["class"] = "PRIEST",
+		["level"] = 40,
+	},
+	["Garb"] = {
+		["class"] = "PRIEST",
+	},
+	["Koldur"] = {
+		["class"] = "ROGUE",
+		["level"] = 60,
+	},
+	["Unknown"] = {
+		["level"] = 0,
+	},
+	["Herbhoarder"] = {
+		["class"] = "WARRIOR",
+	},
+}
