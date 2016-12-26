@@ -1,0 +1,33 @@
+MACRO 16777223 "1h e Shield" Spell_Arcane_ArcaneResilience
+/eq [Wingblade]
+/eq [Deadskull Shield]
+END
+MACRO 16777221 "DS Charge" Ability_Warrior_Charge
+/run if UnitAffectingCombat("player") then CastSpellByName("Berserker Stance"); else CastSpellByName("Battle Stance"); end;
+END
+MACRO 16777217 "dualwild" Spell_Holy_BlessingOfStrength
+/eqoff [Outlaw Sabre]
+/eq [Wingblade]
+END
+MACRO 16777218 "Execute" Spell_BrokenHeart
+/cast Execute
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
+MACRO 16777219 "Fear" Ability_GolemThunderClap
+/stopattack
+/cast Intimidating Shout
+END
+MACRO 16777222 "Heals" Spell_Shadow_LifeDrain
+/target Folley
+/use Heavy Wool Bandage
+/script TargetLastEnemy();
+END
+MACRO 16777225 "Intercept" Ability_Rogue_Sprint
+/run if UnitAffectingCombat("player") then CastSpellByName("Intercept"); else CastSpellByName("Battle Stance"); end;
+END
+MACRO 16777220 "Interrupt" Ability_Kick
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(3); if isActive then CastSpellByName("Pummel"); else CastSpellByName("Shield Bash()"); end;
+END
+MACRO 16777224 "Mocking" Ability_Warrior_PunishingBlow
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(1); if isActive then CastSpellByName("Mocking Blow"); else CastSpellByName("Battle Stance()"); end;
+END
