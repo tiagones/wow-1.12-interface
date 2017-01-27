@@ -11,13 +11,6 @@ MACRO 2 "Charge" Ability_Warrior_Charge
 /run if UnitAffectingCombat("player") then CastSpellByName("Berserker Stance"); else CastSpellByName("Charge"); end;
 /script if not IsCurrentAction(30) then UseAction(30) end;
 END
-MACRO 15 "Cleave" Ability_Warrior_Cleave
-/cast Cleave
-/script if not IsCurrentAction(30) then UseAction(30) end;
-END
-MACRO 16 "console" Ability_Ambush
-/script SetConsoleKey("F7");
-END
 MACRO 9 "Hamstring" Ability_SearingArrow
 /cast Hamstring
 /script if not IsCurrentAction(30) then UseAction(30) end;
@@ -38,6 +31,7 @@ MACRO 10 "Rend" Ability_Gouge
 END
 MACRO 14 "Revenge" Ability_Warrior_Revenge
 /cast Revenge
+/cast Heroic Strike
 /script if not IsCurrentAction(30) then UseAction(30) end;
 END
 MACRO 7 "Shield bash" Ability_Warrior_ShieldBash
@@ -45,7 +39,7 @@ MACRO 7 "Shield bash" Ability_Warrior_ShieldBash
 /eq [Tribal Warrior's Shield]
 /cast Shield Bash
 END
-MACRO 17 "sit" Ability_CheapShot
+MACRO 17 "sit" Spell_Shadow_SummonImp
 /sit
 END
 MACRO 12 "Suunder" Ability_Warrior_Sunder
