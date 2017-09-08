@@ -1,3 +1,12 @@
+MACRO 6 "1h+shield" Spell_Holy_GreaterBlessingofSanctuary
+/eq [Wingblade]
+/eq [Arctic Buckler]
+END
+MACRO 11 "Bandagem" Ability_Ambush
+/target Folei
+/use Heavy Wool Bandage
+/script TargetLastEnemy();
+END
 MACRO 2 "Charge" Ability_Warrior_Charge
 /run if UnitAffectingCombat("player") then CastSpellByName("Berserker Stance"); else CastSpellByName("Charge"); end;
 /script if not IsCurrentAction(30) then UseAction(30) end;
@@ -12,9 +21,6 @@ MACRO 8 "Heroic Strike" Ability_Rogue_Ambush
 END
 MACRO 1 "Intercept" Ability_Ambush
 /run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(3); if isActive then CastSpellByName("Intercept"); else CastSpellByName("Berserker Stance()"); end;
-END
-MACRO 20 "Lure" Ability_Devour
-/run for bag = 0,4,1 do for slot = 1, 16, 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Bright Baubles") then UseContainerItem(bag,slot); PickupInventoryItem(16); end; end; end
 END
 MACRO 3 "OP" Ability_SteelMelee
 /run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(1); if isActive then CastSpellByName("Overpower"); else CastSpellByName("Battle Stance()"); end;
@@ -31,6 +37,11 @@ MACRO 14 "Revenge" Ability_Warrior_Revenge
 /cast Heroic Strike
 /script if not IsCurrentAction(30) then UseAction(30) end;
 END
+MACRO 7 "Shield bash" Ability_Warrior_ShieldBash
+/eq [Lumberjack Axe]
+/eq [Tribal Warrior's Shield]
+/cast Shield Bash
+END
 MACRO 17 "sit" Spell_Shadow_SummonImp
 /sit
 END
@@ -39,7 +50,7 @@ MACRO 12 "Suunder" Ability_Warrior_Sunder
 /script if not IsCurrentAction(30) then UseAction(30) end;
 END
 MACRO 18 "target" Ability_Creature_Cursed_02
-/tar Chromatic Drakonid
+/tar Xethra
 END
 MACRO 13 "Taunt" Spell_Nature_Reincarnation
 /cast Taunt

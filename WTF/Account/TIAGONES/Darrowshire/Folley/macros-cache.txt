@@ -1,6 +1,6 @@
 MACRO 16777223 "1h e Shield" Spell_Arcane_ArcaneResilience
-/eq [Thrash Blade]
-/eq [Crest of Supremacy]
+/eq [Quel'Serrar]
+/eq [Aegis of the Blood God]
 END
 MACRO 16777228 "BerserkerRage" Spell_Nature_AncestralGuardian
 /run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(3); if isActive then CastSpellByName("Berserker Rage"); else CastSpellByName("Berserker Stance()"); end;
@@ -17,8 +17,8 @@ MACRO 16777221 "DS Charge" Ability_Warrior_Charge
 /run if UnitAffectingCombat("player") then CastSpellByName("Berserker Stance"); else CastSpellByName("Battle Stance"); end;
 END
 MACRO 16777217 "dualwild" Spell_Holy_BlessingOfStrength
-/eqoff [Lifeforce Dirk]
-/eq [Thrash Blade]
+/eqoff [Brutality Blade]
+/eq [Quel'Serrar]
 END
 MACRO 16777218 "Execute" Spell_BrokenHeart
 /cast Execute
@@ -28,11 +28,6 @@ MACRO 16777219 "Fear" Ability_GolemThunderClap
 /stopattack
 /cast Intimidating Shout
 END
-MACRO 16777222 "Heals" Spell_Shadow_LifeDrain
-/target Folley
-/use Mageweave Bandage
-/script TargetLastEnemy();
-END
 MACRO 16777225 "Intercept" Ability_Rogue_Sprint
 /run if UnitAffectingCombat("player") then CastSpellByName("Intercept"); else CastSpellByName("Battle Stance"); end;
 END
@@ -41,4 +36,16 @@ MACRO 16777220 "Interrupt" Ability_Kick
 END
 MACRO 16777224 "Mocking" Ability_Warrior_PunishingBlow
 /run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(1); if isActive then CastSpellByName("Mocking Blow"); else CastSpellByName("Battle Stance()"); end;
+END
+MACRO 16777231 "MS" Ability_Warrior_SavageBlow
+/cast Mortal Strike
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
+MACRO 16777229 "Shield slam" Spell_Fire_FireArmor
+/cast Shield Slam
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
+MACRO 16777230 "WW" Ability_Whirlwind
+/run local texture,name,isActive,isCastable = GetShapeshiftFormInfo(3); if isActive then CastSpellByName("Whirlwind"); else CastSpellByName("Berserker Stance()"); end;
+/script if not IsCurrentAction(30) then UseAction(30) end;
 END

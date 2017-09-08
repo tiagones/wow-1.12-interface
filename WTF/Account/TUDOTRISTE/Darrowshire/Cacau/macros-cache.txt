@@ -1,0 +1,48 @@
+MACRO 16777236 "Claw" Ability_Druid_Rake
+/startattack
+/cast Claw(Rank 5)
+END
+MACRO 16777219 "Fear" Ability_GolemThunderClap
+/stopattack
+/cast Intimidating Shout
+END
+MACRO 16777235 "FF Feral" Ability_Hunter_SniperShot
+/startattack
+/cast Faerie Fire (Feral)
+END
+MACRO 16777229 "Ht10" Spell_Nature_HealingTouch
+/lunamo Healing Touch(Rank 10)
+END
+MACRO 16777230 "Ht4" Spell_Nature_HealingTouch
+/lunamo Healing Touch(Rank 4)
+END
+MACRO 16777228 "Ht5" Spell_Nature_HealingTouch
+/lunamo Healing Touch(Rank 5)
+END
+MACRO 16777224 "Maul" Ability_Druid_Maul
+/startattack
+/cast Maul(Rank 7)
+END
+MACRO 16777227 "Reju10" Spell_Nature_Rejuvenation
+/lunamo Rejuvenation(Rank 10)
+END
+MACRO 16777234 "Reju7" Spell_Nature_Rejuvenation
+/lunamo Rejuvenation(Rank 7)
+END
+MACRO 16777231 "Rg6" Spell_Nature_ResistNature
+/lunamo Regrowth(Rank 6)
+END
+MACRO 16777233 "Rg8" Spell_Nature_ResistNature
+/lunamo Regrowth(Rank 8)
+END
+MACRO 16777232 "Rg9" Spell_Nature_ResistNature
+/lunamo Regrowth(Rank 9)
+END
+MACRO 16777225 "Swipe" Ability_Hunter_AspectOfTheMonkey
+/startattack
+/cast Swipe(Rank 5)
+END
+MACRO 16777226 "Taunt" Spell_Nature_Reincarnation
+/startattack;
+/cast Growl
+END

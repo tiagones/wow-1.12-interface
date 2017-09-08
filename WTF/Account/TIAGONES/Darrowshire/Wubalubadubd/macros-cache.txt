@@ -1,0 +1,8 @@
+MACRO 16777217 "dualwild" Spell_Holy_BlessingOfStrength
+/eqoff [Outlaw Sabre]
+/eq [Wingblade]
+END
+MACRO 16777224 "Sinister" Spell_Shadow_RitualOfSacrifice
+/cast Sinister Strike
+/script if not IsCurrentAction(30) then UseAction(30) end;
+END
